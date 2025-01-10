@@ -1,0 +1,245 @@
+HTML Basics:
+
+Q1.What is HTML? Explain its structure.
+
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+
+structure:
+<!DOCTYPE>: Declares the document type (HTML5)
+<html>: The root element of the document.
+<head>: Contains metadata and links to external resources.
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+<body>: Contains the main content of the page.
+The <h1> element defines a large heading.
+The <p> element defines a paragraph.
+
+Q2.Describe the purpose of HTML tags and provide examples of commonly used tags
+
+
+HTML tags are the fundamental building blocks of web development, providing the structure and organization necessary for creating web pages.
+
+They include tags for headings, paragraphs, links, images, and more.
+Commonly used tags like <html>, <head>, and <body> are essential for creating a well-structured web document.
+These tags provide the framework for building user-friendly and accessible web pages.
+
+
+Commonly used tags in HTML:
+<div>	<div>...</div>	             	Defines a division or section in an HTML document.
+<p>	<p>...</p>	             	Defines a paragraph.
+<a>	<a href="...">...</a>	     	Defines a hyperlink.
+<img>	<img src="..." alt="...">    	Embeds an image.
+<ul>	<ul><li>...</li></ul>	     	Defines an unordered list.
+<ol>	<ol><li>...</li></ol>	     	Defines an ordered list.
+<li>	<li>...</li>	             	Defines a list item.
+<table>	<table>...</table>	     	Defines a table.
+<tr>	<tr>...</tr>	             	Defines a table row.
+<th>	<th>...</th>	             	Defines a table header cell.
+<td>	<td>...</td>	             	Defines a table data cell.                  
+<form>	<form>...</form>	     	Defines an HTML form for user input.
+<input>	<input type="...">	     	Defines an input control within a form.
+<button>   <button>...</button>	     	Defines a clickable button.
+<h1>–<h6>	<h1>...</h1>	     	Define headings of different levels.
+<span>	<span>...</span>	     	Defines a generic inline container.
+<label>	<label for="..">..</label>	Defines a label for an input element.
+<iframe>  <iframe src=".."></iframe>	Embeds an inline frame for external content.
+
+
+Q3.What are the differences between block-level and inline elements? Give examples of each.
+
+Differences Between Block-Level and Inline Elements
+
+Aspect	                    Block-Level Elements	                                              Inline Elements
+
+Behavior	        Start on a new line and take up the full width available.	    	 Stay on the same line as neighboring elements.
+Content Flow	        Typically used to define larger structural elements.	    	     	 Used for styling or grouping small portions of text.
+Width and Height        Can have their width, height, margin, and padding explicitly set. 	 Width and height are determined by their content.
+Default Width	        Stretches to fit the width of its container.	                   	 Fits the exact size of its content.
+Examples	        <div>, <p>, <h1> to <h6>, <ul>, <table>	                           	 <span>, <a>, <img>,<strong>,<em>
+
+
+
+Q4.Explain the concept of semantic HTML and why it is important.
+
+
+Semantic HTML refers to using HTML tags that convey the meaning and purpose of the content they enclose. These tags clearly describe their content to both browsers and developers, improving accessibility, search engine optimization (SEO), and code readability.
+
+For example:
+
+A <header> tag represents the header section of a webpage, rather than just using a generic <div>.
+A <footer> tag defines the footer of a webpage.
+
+
+
+What is Semantic HTML?
+Semantic HTML refers to using HTML tags that convey the meaning and purpose of the content they enclose. These tags clearly describe their content to both browsers and developers, improving accessibility, search engine optimization (SEO), and code readability.
+
+For example:
+
+A <header> tag represents the header section of a webpage, rather than just using a generic <div>.
+A <footer> tag defines the footer of a webpage.
+
+Why is Semantic HTML Important?
+
+1.Improves Accessibility
+Semantic tags provide context to assistive technologies like screen readers, helping visually impaired users navigate and understand the webpage.
+Example: <nav> helps screen readers identify navigation links instead of generic containers.
+
+2.Enhances SEO
+Search engines prioritize content wrapped in semantic tags because they understand its structure and relevance better. Example: <article> or <section> tags indicate standalone pieces of content.
+
+3.Improves Code Readability and Maintenance
+Semantic tags make the code more meaningful and easier for developers to understand and maintain.
+Example: A <main> tag clearly indicates the primary content of the page.
+
+4.Provides Standardization
+Semantic tags follow web standards, ensuring better compatibility across browsers and devices.
+
+5.Better User Experience
+Using semantic HTML improves how content is structured and displayed, providing a clearer layout and flow for users.
+
+
+2. CSS Fundamentals:
+
+Q1.What is CSS?
+CSS (Cascading Style Sheets) is a language used to control the appearance and layout of web pages. It works alongside HTML by applying styles, such as colors, fonts, margins, and layouts, to HTML elements. CSS allows for the separation of content (HTML) from presentation (CSS), enabling more flexible and maintainable web design.
+
+How CSS Differs from HTML
+Aspect					HTML						CSS
+Purpose				Defines the structure and content of a webpage.		Defines the style and layout of the webpage.
+Type of Language		Markup language.					Style sheet language.
+Focus				Focuses on what content is displayed.			Focuses on how content looks.
+Separation of Concerns		Handles structure and semantics of the page.		Allows design to be separated from content.
+Examples of Usage		Elements like <h1>, <p>, <div>.				Properties like color, font-size, margin.
+
+
+Q2.Explain the three ways to apply CSS to a web page.
+
+CSS can be applied to a webpage in three main ways: Inline CSS, Internal CSS, and External CSS. Each method has its use cases, benefits, and limitations. Here's an explanation of each:
+
+1. Inline CSS
+Definition: CSS is applied directly to an HTML element using the style attribute within the tag.
+
+2. Internal CSS
+Definition: CSS is defined within a <style> block inside the <head> section of the HTML document.
+
+3. External CSS
+Definition: CSS is written in a separate file with a .css extension and linked to the HTML document using a <link> tag.
+
+
+Q3.What are CSS selectors? List and describe the different types of selectors.
+
+
+What Are CSS Selectors?
+CSS selectors are patterns used to select and style specific HTML elements. They define which elements on a web page the associated CSS rules will apply to. By targeting elements efficiently, selectors allow developers to control the design and layout of a webpage.
+
+Types of CSS Selectors:
+
+1. Universal Selector
+Description: Matches all elements on the page.
+
+2. Type Selector
+Description: Targets all elements of a specific type or tag
+
+3. Class Selector
+Description: Targets elements with a specific class attribute. Multiple elements can share the same class.
+
+4. ID Selector
+Description: Targets a single element with a specific id attribute. IDs must be unique within a document.
+
+5. Group Selector
+Description: Groups multiple selectors to apply the same styles.
+
+6. Descendant Selector
+Description: Selects elements nested within a specific parent.
+
+7. Child Selector
+Description: Targets direct child elements of a parent
+
+8. Sibling Selectors
+Adjacent Sibling Selector (+): Selects the element immediately following another.
+
+9. Attribute Selector
+Description: Targets elements based on attributes or attribute values.
+
+10. Pseudo-classes
+Description: Targets elements based on their state or position.
+
+11. Pseudo-elements
+Description: Targets specific parts of an element.
+
+
+Q4.What is the box model in CSS? Explain its components.
+
+What is the CSS Box Model?
+The CSS Box Model is a fundamental concept in web design that describes how every HTML element is structured and spaced. It defines the space occupied by an element on a webpage, including its content, padding, border, and margin.
+
+
+Components of the CSS Box Model
+
+1.Content
+The area where the actual content of the element (text, images, etc.) is displayed.
+Size: Controlled by properties like width and height
+
+2.Padding
+The space between the content and the element's border.
+Adds extra space inside the border, but it doesn’t affect the content area.
+Size: Controlled by padding properties:
+   .padding-top
+   .padding-right
+   .padding-bottom
+   .padding-left
+
+3.Border
+Surrounds the padding and content, creating a visible frame.
+Size: Controlled by border-width, border-style, and border-color.
+
+4.Margin
+The space between the element's border and adjacent elements.
+Adds space outside the border, pushing elements away from each other.
+Size: Controlled by margin properties:
+  .margin-top
+  .margin-right
+  .margin-bottom
+  .margin-left
+
+
+3. Responsive Web Design
+
+Q1.What is responsive web design? Why is it important?
+
+What is Responsive Web Design?
+Responsive Web Design (RWD) is an approach to web development that ensures a website's layout, design, and functionality adapt seamlessly to different screen sizes, resolutions, and devices. This technique allows websites to provide an optimal user experience across desktops, tablets, smartphones, and other devices, without needing separate versions for each.
+
+
+Why is Responsive Web Design Important?
+1.Improved User Experience:
+ .Ensures users can easily navigate and interact with the website, regardless of the device.
+ .Reduces the need for zooming, panning, and scrolling, which enhances usability.
+
+2.Increased Reach:
+ .Mobile usage continues to grow, and responsive design ensures websites are accessible on all devices, increasing audience reach.
+
+3.Better SEO:
+ .Search engines like Google prioritize mobile-friendly websites in their rankings. A responsive design improves SEO performance.
+
+4.Cost-Effectiveness:
+ .Eliminates the need for separate mobile and desktop websites, reducing development and maintenance costs.
+
+5.Future-Proofing:
+ .Adapts to new devices and screen sizes as they emerge, making the design sustainable for the long term.
+
+6.Consistent Branding:
+ .Maintains a unified look and feel across all devices, reinforcing brand identity.
+
+Q2.Explain the use of media queries in CSS. Provide an example.
+
+
+
+
+
