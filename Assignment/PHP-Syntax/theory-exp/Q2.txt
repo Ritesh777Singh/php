@@ -1,0 +1,26 @@
+// Q :- What are the rules for naming variables in PHP?
+
+ --  Rules for Naming Variables in PHP --
+    1. Prefix withma dollar sign ($):
+       - All variables in PHP must start with a dollar sign ($).
+
+    2.  Followed by a letter or underscore:
+       - After the dollar sign, the variable name must begin with either:
+            - A letter (a-z or A-Z)
+            - An underscore ( _ ).
+
+    3. Can Contain Letters, Numbers, or Underscores:
+
+        - Variable names can only consist of letters (a-z, A-Z), numbers (0-9), and underscores (_).           
+
+    4. No Spaces or Special Characters:
+
+        - Variable names cannot include spaces, hyphens (-), or special characters (e.g., @, #, !, etc.).
+
+    5. Case Sensitivity:
+
+        - Variable names in PHP are case-sensitive. $Name and $name are treated as two different variables.
+
+    6. Cannot Use Reserved Keywords:
+
+        - Variable names cannot use PHP reserved keywords (e.g., class, function, echo, etc.).        

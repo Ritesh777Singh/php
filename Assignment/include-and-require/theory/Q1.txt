@@ -1,0 +1,23 @@
+// Explain the difference between include and require in PHP.
+
+In PHP,both include and require are used to insert the contents of one PHP file into another.
+However,there is a key difference in how they handle errors when the file is missing.
+
+1. include
+ 
+  - If the specified file is not found, PHP throws a warning (E_WARNING) but continues script execution.
+  - Used when the missing file is not critical for the script.
+
+2. require
+
+  - If the specified file is not found, PHP throws a fatal error (E_ERROR) and stops execution immediately.
+  - Used when the missing file is critical for the script.
+
+
+Key Differences:
+
+Feature	                               include         	                                require
+
+Error Handling	      Throws a warning (E_WARNING) and continues execution	        Throws a fatal error (E_ERROR) and stops execution
+Script Execution	  Continues even if the file is missing	                        Stops immediately if the file is missing
+Use Case	          Use for optional files (e.g., sidebar, footer)	            Use for essential files (e.g., database config, authentication) 

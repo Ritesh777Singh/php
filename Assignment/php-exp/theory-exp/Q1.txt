@@ -1,0 +1,24 @@
+// Explain what PHP expressions are and give examples of arithmetic and logical operations.
+
+What are PHP Expressions:
+
+An expression in PHP is any combination of values, variables, operators, and functions that evaluates to a value.
+Expressions are the core building blocks of PHP scripts, as they define operations like calculations, comparisons, and function calls.
+
+1. Arithmetic operations
+
+  - Arithmetic operations in PHP allow mathematical calculations.
+ 
+ Operator:
+
+ Addition (+),subtraction (-),Multiplication (*),Division (/),Modulus(Remainder) (%),Exponentiation (**).
+
+2. Logical operations
+
+  -  Logical operators are used in conditional statements to determine whether an expression evaluates to true or false.
+
+  Operator:
+   
+   AND (&&), NOT (!), OR (').
+
+   

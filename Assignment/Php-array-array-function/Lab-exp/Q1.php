@@ -1,0 +1,1 @@
+<?php //1. Display the value of an array?>

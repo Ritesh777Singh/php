@@ -1,0 +1,20 @@
+// Discuss the structure of a PHP script  and how to embed php in HTML.
+
+-- Structure of a PHP Script --
+A PHP script is structured with the following key components:
+
+    1. PHP Opening and Closing Tags:
+
+       - PHP code is enclosed within <?php (opening tag) and ?> (closing tag).
+
+    2.Declarations and Statements:
+
+       - Inside the PHP tags, you can write PHP statements, which may include variable declarations, loops, conditionals, functions, etc.   
+
+    3.HTML Integration (if necessary):
+
+        - PHP can be used standalone or embedded within an HTML document for generating dynamic content.
+    
+    4.Comments:
+
+        - PHP allows single-line (// or #) and multi-line comments (/* ... */).   

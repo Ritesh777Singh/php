@@ -1,0 +1,42 @@
+// What is the header function in PHP and how is it used?
+ 
+The header() function in PHP is used to send raw HTTP headers to the browser before any actual output is sent. It allows developers to control aspects of the HTTP response, such as redirection, content type, cache control, and more.
+
+Syntax:
+header(string $header, bool $replace = true, int $response_code = 0)
+
+-$header: The actual header string to send.
+-$replace (optional): A boolean that determines whether to replace a previous similar header (default: true).
+-$response_code (optional): An HTTP response status code.
+
+Common Uses of header():
+
+1. Redirecting to Another Page:
+
+header("Location: https://www.example.com");
+exit();
+
+-Redirects the user to another page.
+-exit(); is used to stop further execution.
+
+2. Setting Content Type:
+
+header("Content-Type: application/json");
+echo json_encode(["message" => "Hello, World!"]);
+
+-Tells the browser that the response is in JSON format.
+
+3. Controlling Cache
+
+header("Cache-Control: no-cache, must-revalidate");
+header("Expires: Sat, 01 Jan 2000 00:00:00 GMT");
+
+-Prevents browsers from caching the page.
+
+4. Forcing File Download
+
+header("Content-Disposition: attachment; filename=\"example.txt\"");
+header("Content-Type: text/plain");
+readfile("example.txt");
+
+-Forces the browser to download a file instead of displaying it.

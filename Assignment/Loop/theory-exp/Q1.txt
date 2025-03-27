@@ -1,0 +1,15 @@
+// Discuss the difference between for loop, foreach loop, and do-while loop in PHP
+
+Differences Between for, foreach, and do-while Loops in PHP
+
+1. For Loop
+
+    The for loop is used when the number of iterations is known beforehand. It iterates a block of code a specific number of times, controlled by an initialization, condition, and increment/decrement.
+
+ 2. Foreach Loop
+
+    The foreach loop is specifically designed for iterating over arrays or objects. It is used when working with key-value pairs or list-style data.
+
+3. Do-While Loop
+
+    The do-while loop is similar to a while loop but guarantees at least one execution of the code block because the condition is checked after the loop runs.    

@@ -1,0 +1,6 @@
+// Explain how conditional statements work in PHP
+
+Conditional Statements in PHP:
+
+    Conditional statements in PHP allow you to make decisions and execute different code blocks based on specific conditions. They evaluate boolean expressions (true/false) and direct the flow of execution accordingly.
+

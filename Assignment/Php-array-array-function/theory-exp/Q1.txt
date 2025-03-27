@@ -1,0 +1,21 @@
+// Define arrays in PHP. What are the different types of arrays?
+
+
+Arrays in PHP :
+
+    An array in PHP is a data structure that stores multiple values in a single variable. Each value in the array is called an element, and each element is associated with a unique key (or index). Arrays in PHP can hold values of any data type, such as integers, strings, objects, or even other arrays.
+
+Types of Arrays in PHP:
+
+    PHP supports three main types of arrays:
+
+1. Indexed Arrays:
+    Description: These arrays use numeric indices (starting from 0) to access elements. 
+
+2. Associative Arrays:
+    Description: These arrays use named keys (strings) instead of numeric indices. Each key is associated with a value.
+
+3. Multidimensional Arrays:
+    Description: These arrays contain other arrays as their elements. They are used to represent complex data structures, such as tables or grids.
+
+

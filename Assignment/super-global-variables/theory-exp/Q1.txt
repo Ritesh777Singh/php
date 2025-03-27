@@ -1,0 +1,26 @@
+//What are super global variables in PHP? List at least five super global arrays and their use.
+
+What are super global variables in PHP? List at least five super global arrays and their use.
+Super global variables in PHP are built-in variables that are always accessible, regardless of scope. This means they can be used in any part of your script without needing to be declared as global.
+
+Here are five important super global arrays in PHP and their uses:
+
+1. $_GET
+
+    Usage: This array is used to collect data sent via URL parameters (query strings). For example, if you have a URL like example.com/page.php?name=John, you can access the name parameter using $_GET['name'].
+
+2. $_POST
+
+    Usage: This array is used to collect form data sent via the HTTP POST method. It is commonly used for collecting data from HTML forms where the method attribute is set to "post".
+
+3. $_SERVER
+
+    Usage: This array contains information about the server environment, headers, paths, and script locations. For example, $_SERVER['HTTP_USER_AGENT'] can be used to get information about the user's browser, and $_SERVER['REMOTE_ADDR'] to get the IP address of the user.
+
+4. $_SESSION
+
+    Usage: This array is used to store session variables. Session variables are used to store user information to be used across multiple pages (e.g., user login status). Data stored in $_SESSION remains available throughout the session until it is explicitly destroyed.
+
+5. $_COOKIE
+
+    Usage: This array is used to retrieve data stored in cookies. Cookies are small files stored on the user's computer, and they are often used to track user preferences or activities. For example, you can set a cookie with setcookie('user', 'John', time() + (86400 * 30), "/"); and retrieve it using $_COOKIE['user'].

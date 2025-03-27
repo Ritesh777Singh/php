@@ -1,0 +1,1 @@
+<?php //Variable Variables: Demonstrate the use of variable variables in PHP. Write a script where a variable name is stored in another variable, and then use it to print the value.?>
